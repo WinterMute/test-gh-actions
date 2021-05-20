@@ -1,4 +1,4 @@
 all:
 	@env
-	@nproc --all
-	@$ hwinfo --cpu
+	nproc --all
+	hwinfo --cpu
